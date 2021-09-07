@@ -1,0 +1,359 @@
+.y {
+  color: #0a0908;
+  color: #f2f4f3;
+  color: #03045e;
+  color: #bc6c25;
+  color: #8a817c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #bc6c25;
+}
+
+#formulario {
+  color: #bc6c25;
+  font-weight: 900;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0a0908), to(#f2f4f3));
+  background: linear-gradient(to bottom, #0a0908, #f2f4f3);
+}
+
+.colorAzul {
+  color: #03045e;
+}
+
+.bordesNegros {
+  border: solid #0a0908 2px;
+  background-color: #f2f4f3;
+}
+
+.oferta {
+  color: #bc6c25;
+  margin: 15px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.negrita {
+  font-weight: 1200;
+}
+
+p {
+  color: #8a817c;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.colorVerde {
+  color: #bc6c25;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.fuenteItalic {
+  font-style: italic;
+}
+
+.sinSub {
+  text-decoration: none;
+}
+
+.colorRojo {
+  color: #bc6c25;
+}
+
+.colorBlanco {
+  color: #f2f4f3;
+}
+
+.textoZoom {
+  font-size: 110%;
+}
+
+.mayuscula {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.espaciado {
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+}
+
+.fondoNegro {
+  background-color: #0a0908;
+}
+
+/*h1{
+    color: $blancoFondo;
+    background-color: $negroFondo;
+    text-transform: capitalize;
+    text-align: center;
+}*/
+.iFondo {
+  background-image: url("https://png.pngtree.com/png-vector/20210102/ourlarge/pngtree-black-cell-phone-with-white-screen-png-image_2690193.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+}
+
+.negro {
+  color: #0a0908;
+}
+
+.divForm {
+  background-color: #8a817c 116, 224, 224;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  width: 500px;
+  height: 400px;
+  padding: 15px;
+  border: dashed 4px #0a0908;
+  overflow: auto;
+  position: center;
+  left: 425px;
+}
+
+.head {
+  background-color: #0a0908;
+  padding-bottom: 10px;
+}
+
+.ulA {
+  list-style: none;
+  margin-top: 40px;
+  color: #f2f4f3;
+}
+
+li {
+  display: inline-block;
+  font-size: 25px;
+  width: 24%;
+  border: none;
+  text-align: center;
+  position: relative;
+}
+
+ul ul {
+  display: none;
+  position: absolute;
+  top: 34px;
+}
+
+ul ul li {
+  display: block;
+  background-color: #f2f4f3;
+  width: initial;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.boxImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 40px;
+}
+
+.boxImg2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 40px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.boxImg2:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.box2 {
+  height: 150px;
+  width: 200px;
+  background-color: #0a0908;
+}
+
+.boxVideos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.boxVideos3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.videoZoom {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.videoZoom:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.principal {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "arriba arriba"
+ "menu menu"
+ "p form"
+ "abajo abajo";
+  -ms-grid-columns: 2fr;
+      grid-template-columns: 2fr;
+}
+
+@media (max-width: 850px) {
+  .principal {
+        grid-template-areas: "arriba"
+ "menu"
+ "p"
+ "form"
+ "abajo";
+  }
+}
+
+.principal > * {
+  border: 15px;
+}
+
+.headerN {
+  grid-area: 'arriba';
+}
+
+.ulN {
+  grid-area: 'menu';
+}
+
+.pN {
+  grid-area: 'p';
+}
+
+.formN {
+  grid-area: 'form';
+}
+
+.footerN {
+  grid-area: 'abajo';
+}
+
+footer {
+  text-align: center;
+}
+
+.car2 {
+  height: 30%;
+  width: 100%;
+}
+
+.titulo__header {
+  font-size: 400%;
+  letter-spacing: 10px;
+}
+
+.titulo__header--subtitulo {
+  font-size: large;
+  letter-spacing: normal;
+}
+
+.fondo__negro {
+  background-color: #0a0908;
+}
+
+.fondo__negro--img {
+  background-color: black;
+}
+
+.borde__img {
+  border: solid black 2px;
+  background-color: white;
+}
+
+.borde__img--2 {
+  border: solid #bc6c25 2px;
+  background-color: white;
+}
+
+.footer__letras {
+  text-align: center;
+  color: #bc6c25;
+}
+
+.footer__letras--2 {
+  color: #0a0908;
+}
+
+.borde__img {
+  border: solid black 2px;
+  background-color: white;
+}
+
+.borde__img--2 {
+  border: solid #bc6c25 2px;
+  background-color: white;
+}
+
+
+
+/*# sourceMappingURL=miarchivoSCSS.css.map */

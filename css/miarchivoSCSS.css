@@ -1,0 +1,389 @@
+.y {
+  color: #0a0908;
+  color: #f2f4f3;
+  color: #03045e;
+  color: #8a817c;
+  color: rgb(53,183,42);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#formulario {
+  color: rgb(53,183,42);
+  font-weight: 900;
+}
+.navbars_{
+  background-color: rgb(49, 48, 47);
+}
+body{
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(248, 249, 250)
+}
+
+.bodyIndex {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0a0908), to(#f2f4f3));
+  background: linear-gradient(to bottom, #0a0908, #f2f4f3);
+}
+
+.colorAzul {
+  color: #03045e;
+}
+
+.bordesNegros {
+  border: solid #0a0908 2px;
+  background-color: #f2f4f3;
+}
+
+.oferta {
+  color: #fff;
+  margin: 15px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.negrita {
+  font-weight: 1200;
+}
+
+.p_subtitulo {
+  color: #8a817c;
+  font-weight: 700;
+  font-size: 2rem;
+  
+}
+.p {
+  color: #8a817c;
+  font-weight: 700;
+  font-size: 2rem;
+  
+}
+
+.colorVerde {
+  color: rgb(53,183,42);
+}
+
+.centrado {
+  text-align: center;
+}
+
+.fuenteItalic {
+  font-style: italic;
+}
+
+.sinSub {
+  text-decoration: none;
+}
+
+.colorRojo {
+  color: #bc6c25;
+}
+
+.colorBlanco {
+  color: #f2f4f3;
+}
+
+.textoZoom {
+  font-size: 110%;
+}
+
+.mayuscula {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.espaciado {
+  line-height: 1.2;
+}
+
+.fondoNegro {
+  background-color: #0a0908;
+}
+
+.iFondo {
+  background-image: url("https://png.pngtree.com/png-vector/20210102/ourlarge/pngtree-black-cell-phone-with-white-screen-png-image_2690193.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+}
+
+.negro {
+  color: #0a0908;
+}
+
+.divForm {
+  background-color: #8a817c 116, 224, 224;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  width: 500px;
+  height: 400px;
+  padding: 15px;
+  border: dashed 4px #0a0908;
+  overflow: auto;
+  position: center;
+  left: 425px;
+}
+
+.head {
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+
+.boxImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.boxImg2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 40px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.boxImg2:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.box2 {
+  height: 150px;
+  width: 200px;
+  background-color: #0a0908;
+}
+
+.boxVideos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.boxVideos3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.videoZoom {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.videoZoom:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.principal {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "arriba arriba"
+ "menu menu"
+ "p form"
+ "abajo abajo";
+  -ms-grid-columns: 2fr;
+      grid-template-columns: 2fr;
+}
+
+@media (max-width: 850px) {
+  .principal {
+        grid-template-areas: "arriba"
+ "menu"
+ "p"
+ "form"
+ "abajo";
+  }
+}
+
+.principal > * {
+  border: 15px;
+}
+
+.headerN {
+  grid-area: 'arriba';
+}
+
+.ulN {
+  grid-area: 'menu';
+}
+
+.pN {
+  grid-area: 'p';
+}
+
+.formN {
+  grid-area: 'form';
+}
+
+.footerN {
+  grid-area: 'abajo';
+}
+
+.car2 {
+  height: 30%;
+  width: 100%;
+}
+
+.header__titulo {
+  font-size: 400%;
+  letter-spacing: 10px;
+}
+
+.header__titulo--subtitulo {
+  font-size: large;
+  letter-spacing: normal;
+}
+
+.body__fondoNegro {
+  background-color: #0a0908;
+}
+
+.body__fondoNegro--img {
+  background-color: black;
+}
+
+.body__bordeImg {
+  background-color: #fff;
+}
+
+.body__bordeImg--2 {
+  border: solid #bc6c25 2px;
+  background-color: white;
+}
+
+.footer__letras {
+  text-align: center;
+  color: rgb(53,183,42);
+}
+
+.footer__letras--2 {
+  color: #0a0908;
+}
+
+.borde__img {
+  border: solid black 2px;
+  background-color: white;
+}
+
+.borde__img--2 {
+  border: solid #bc6c25 2px;
+  background-color: white;
+}
+
+.aA {
+  font-size: 25px;
+}
+
+.texto-verde {
+  color: rgb(53,183,42);
+}
+
+.texto-negro {
+  color: black;
+  font-weight: 999;
+}
+
+.texto-rojo {
+  color: red;
+}
+
+.imgAcc, .imgAccRojo, .imgAccAzul {
+  width: 250px;
+  height: 250px;
+}
+
+.imgAccRojo {
+  border: solid red 3px;
+}
+
+.imgAccAzul {
+  border: solid blue 3px;
+}
+
+.imgsCarru {
+  height: 600px;
+  width: auto;
+}
+
+.separacionLetras {
+  letter-spacing: 30px;
+}
+.separacionLetrasTitulos {
+  letter-spacing: 6px;
+}
+/*# sourceMappingURL=miarchivoSCSS.css.map */
+.nav__text{
+   color: #8a817c;
+  font-weight: 700;
+  font-size: 1.5rem;
+  
+}
+
+.nav__text:hover{
+  color: #fff;
+}
+.color_fff{
+  color: #fff;
+}
+.carousel__text{
+  color: #fff;
+}
+.fondoBlanco {
+  background-color: rgb(255,255,255);
+}
+.seccionCards{
+  height: 35rem;
+}
+.iconitosVerdes{
+  color: rgb(53,183,42);
+
+}

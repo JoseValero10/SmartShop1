@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Smartshop - Contactanos Nosotross</title>
+    <meta name="descripcion" content="Aqui encontraras informacion sobre nosotros y un formulario de contacto">
+    <meta name="keywords" content="celulares, tecnologia, cargadores, auriculares, relojes, revendedores, parlantes, electronica, cables usb, teclados"> 
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link rel="stylesheet" href="../css/miarchivoSCSS.css" />
+    </head>
+<!--HEADER------------>
+
+<header class="container-fluid w-100 mx-auto g-0">
+  <section class="row head p-3">
+    <a class="col-3 " href="../index.html">
+      <img src="../img/sms2.jpg" alt="logo">
+    </a>
+    <div class="col-6 text-center">
+      <h1 class="separacionLetras colorBlanco header__titulo animate__animated animate__flipInX">SMARTSHOP
+      </h1>
+      <p class=" colorBlanco p_subtitulo header__titulo header__titulo--subtitulo">Somos una tienda online
+        especializada
+        en Xiaomi / Samsung / Motorola</p>
+    </div>
+    <div class="col-3"></div>
+  </section>
+
+  <!--NAV------------>
+  <nav class="pt-2 navbar-expand-lg capitalize boxImg navbars_">
+    <ul class="navbar-nav">
+      <li class=" mx-4">
+        <a class="nav-link" aria-current="page" href="../index.html">
+          <p class="nav__text">Inicio</p>
+        </a>
+      </li>
+      <li class=" mx-4">
+        <a class="nav-link" aria-current="page" href="../pages/celulares.html">
+          <p class="nav__text ">celulares</p>
+        </a>
+      </li>
+      <li class=" mx-4">
+        <a class="nav-link" href="../pages/accesorios.html">
+          <p class="nav__text">accesorios</p>
+        </a>
+      </li>
+      <li class=" mx-4">
+        <a class="nav-link" href="../pages/ventasMayoristas.html">
+          <p class="nav__text">ventas mayoristas</p>
+        </a>
+      </li>
+      <li class=" mx-4">
+        <a class="nav-link" href="../pages/nosotros.html">
+          <p class="nav__text color_fff">nosotros/contactanos</p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+      <p>
+        Somos una empresa dedicada a la comercialización de productos
+        tecnológicos. Realizamos ventas mayoristas, solicita tu catálogo.
+        Ubicados en el noroeste argentino, realizamos envíos a todo el país.
+        También podés retirar tus productos de nuestras sucursales.
+      </p>
+      <div>
+        <div class="divForm formN">
+          <form id="formulario" action="datosContacto.php">
+            <label for="nombre">Nombre</label>
+            <input
+              id="nombre"
+              name="Nombre"
+              type="text"
+              placeholder="Nombre Completo"
+            /><br />
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="juanperez@gmail.com"
+            /><br />
+            <label for="telefono">Teléfono</label>
+            <input
+              id="telefono"
+              name="telefono"
+              type="text"
+              placeholder="381-3813813"
+            /><br />
+            <label for="consulta">Estas interesado en:</label><br />
+            <select name="consulta" id="">
+              <option value="">Compra minorista</option>
+              <option value="">Compra mayosista</option></select
+            ><br />
+            <label for="contacto">Horario en el que deseas ser contactado</label
+            ><br />
+            <input type="checkbox" name="mañana" /> 7:30 - 11:30 <br />
+            <input type="checkbox" name="siesta" /> 13:30 - 15:30 <br />
+            <input type="checkbox" name="tarde" /> 16:30 - 19:30 <br />
+            <textarea
+              name=""
+              id="consulta"
+              cols="30"
+              rows="10"
+              placeholder="Dejá acá tu consulta..."
+            ></textarea
+            ><br />
+            <button type="reset">Borrar datos</button>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+  
+
+      <div>
+        <footer class="fondoNegro footer__letras col-12 w-100 p-3">
+          <h2 class="oferta">Visitanos en nuestras redes sociales</h2>
+          <div class="d-flex justify-content-center">
+            <a class="sinSub" href="https://instagram.com/smartshoptuc?utm_medium=copy_link">
+              <h5 class="color_fff mx-3"><i class="fab fa-instagram iconitosVerdes"></i> Instagram</h5>
+            </a>
+            <a class="sinSub" href="https://www.facebook.com/smartshoptucuman">
+              <h5 class="color_fff mx-3"><i class="fab fa-facebook iconitosVerdes"></i> Facebook</h5>
+            </a>
+          </div>
+          <br>
+          <h3 class="color_fff">Mail: smartshop@gmail.com</h3>
+          <h3 class="color_fff">Encontranos en: Calle Lapachos 1234 S.M. de Tucuman</h3>
+        </footer>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+          crossorigin="anonymous"></script>
+        </body>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
+  </body>
+  
+  </html>

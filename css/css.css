@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#formulario{
+    color: darkslategray;
+    font-weight: 900;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom, black, white);
+}
+.colorAzul{
+    color: blue;
+}
+.bordesNegros{
+    border: solid black 2px;
+    background-color: white;
+}
+.oferta{
+    color: greenyellow;
+    margin: 15px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.negrita{
+  font-weight: 1200;
+}
+p{
+    color: darkgrey;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+.colorVerde{
+    color: green;
+}
+.centrado{
+    text-align: center;
+}
+.fuenteItalic{
+    font-style: italic;
+}
+.sinSub{
+    text-decoration: none;
+}
+.colorRojo{
+    color: red;
+}
+.colorBlanco{
+    color: white;
+}
+.textoZoom{
+    font-size: 110%;
+}
+.mayuscula{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.espaciado{
+    line-height: 1.2;
+}
+.separacionLetras{
+    letter-spacing: 12px;
+}
+.titulo{
+    font-size: 400%;
+}
+ul{
+    list-style: none;
+}
+.fondoNegro{
+    background-color: black;
+}
+h1{
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+    text-align: center;
+}
+.iFondo{
+    background-image: url("https://png.pngtree.com/png-vector/20210102/ourlarge/pngtree-black-cell-phone-with-white-screen-png-image_2690193.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+}
+.negro{
+    color: black;
+}
+.divForm{
+    background-color: rgb(116, 224, 224);
+    margin-top: 10px;
+    margin-bottom: 35px;
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    border: dashed 4px rgb(49, 3, 3);
+    overflow: auto;
+    position: center;
+    left: 425px;
+}
+.head{
+    background-color: black;
+    padding-bottom: 10px;
+}
+.ulA{
+    list-style: none;
+   margin-top: 40px;
+   color: white;
+}
+li{
+    display: inline-block;
+    font-size: 25px;
+    width: 24%;
+    border: none;
+    text-align: center;
+    position: relative;
+}
+ul ul{
+    display: none;
+    position: absolute;
+    top: 34px;
+}
+ul ul li{
+    display: block;
+    background-color: white;
+    width: initial;
+}
+ul li:hover ul{
+    display: block;
+}
+.boxImg{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 40px;
+}
+.boxImg2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 40px;
+    transition: transform 0.2s;
+}
+.boxImg2:hover{
+    transform: scale(1.15);
+}
+.box2{
+    height: 150px;
+    width: 200px;
+    background-color: black;
+}
+.boxVideos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.boxVideos3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.videoZoom{
+    transition:transform 0.3s;
+}
+.videoZoom:hover{
+    transform: scale(1.1);
+}
+.principal{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "arriba arriba"
+                              "menu menu"
+                              "p form"
+                              "abajo abajo";
+                              grid-template-columns: 2fr;               
+}
+@media(max-width:850px){
+    .principal{
+        grid-template-areas: "arriba"
+        "menu"
+        "p"
+        "form"
+        "abajo";
+    }
+}
+.principal > *{
+    border: 15px;
+}
+
+.headerN{
+    grid-area: arriba;
+}
+.ulN{
+    grid-area: menu;
+}
+.pN{
+    grid-area: p;
+}
+.formN{
+    grid-area: form;
+}
+.footerN{
+    grid-area: abajo;
+}
+footer{
+    text-align: center;
+}
+.car2{
+    height: 30%;
+    width: 100%;
+}
